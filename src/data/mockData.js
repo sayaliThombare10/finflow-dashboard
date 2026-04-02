@@ -1,0 +1,41 @@
+export const CATEGORY_COLORS = {
+  Food: '#1d9e75',
+  Transport: '#185fa5',
+  Shopping: '#d85a30',
+  Housing: '#534ab7',
+  Health: '#ba7517',
+  Entertainment: '#d4537e',
+  Salary: '#0f6e56',
+  Freelance: '#5dcaa5',
+  Investment: '#378add',
+  Other: '#888780',
+}
+
+export const CATEGORIES = Object.keys(CATEGORY_COLORS)
+
+export const INITIAL_TRANSACTIONS = [
+  { id: 1,  date: '2024-01-05', desc: 'Monthly salary',       cat: 'Salary',        type: 'income',  amt: 85000 },
+  { id: 2,  date: '2024-01-08', desc: 'Apartment rent',       cat: 'Housing',       type: 'expense', amt: 22000 },
+  { id: 3,  date: '2024-01-10', desc: 'Grocery run',          cat: 'Food',          type: 'expense', amt: 3200  },
+  { id: 4,  date: '2024-01-12', desc: 'Metro card recharge',  cat: 'Transport',     type: 'expense', amt: 500   },
+  { id: 5,  date: '2024-01-15', desc: 'Netflix & Hotstar',    cat: 'Entertainment', type: 'expense', amt: 1100  },
+  { id: 6,  date: '2024-01-18', desc: 'Freelance project',    cat: 'Freelance',     type: 'income',  amt: 18000 },
+  { id: 7,  date: '2024-01-20', desc: 'Pharmacy',             cat: 'Health',        type: 'expense', amt: 890   },
+  { id: 8,  date: '2024-01-22', desc: 'Online shopping',      cat: 'Shopping',      type: 'expense', amt: 4500  },
+  { id: 9,  date: '2024-02-01', desc: 'Monthly salary',       cat: 'Salary',        type: 'income',  amt: 85000 },
+  { id: 10, date: '2024-02-03', desc: 'Apartment rent',       cat: 'Housing',       type: 'expense', amt: 22000 },
+  { id: 11, date: '2024-02-07', desc: 'Dinner out',           cat: 'Food',          type: 'expense', amt: 1800  },
+  { id: 12, date: '2024-02-10', desc: 'Cab rides',            cat: 'Transport',     type: 'expense', amt: 1200  },
+  { id: 13, date: '2024-02-14', desc: 'Valentine gifts',      cat: 'Shopping',      type: 'expense', amt: 3800  },
+  { id: 14, date: '2024-02-18', desc: 'Gym membership',       cat: 'Health',        type: 'expense', amt: 2500  },
+  { id: 15, date: '2024-02-22', desc: 'SIP investment',       cat: 'Investment',    type: 'expense', amt: 5000  },
+  { id: 16, date: '2024-02-25', desc: 'Freelance project',    cat: 'Freelance',     type: 'income',  amt: 25000 },
+  { id: 17, date: '2024-03-01', desc: 'Monthly salary',       cat: 'Salary',        type: 'income',  amt: 85000 },
+  { id: 18, date: '2024-03-04', desc: 'Apartment rent',       cat: 'Housing',       type: 'expense', amt: 22000 },
+  { id: 19, date: '2024-03-09', desc: 'Groceries',            cat: 'Food',          type: 'expense', amt: 2900  },
+  { id: 20, date: '2024-03-14', desc: 'Electricity bill',     cat: 'Housing',       type: 'expense', amt: 1800  },
+  { id: 21, date: '2024-03-18', desc: 'Movie tickets',        cat: 'Entertainment', type: 'expense', amt: 600   },
+  { id: 22, date: '2024-03-20', desc: 'Medicines',            cat: 'Health',        type: 'expense', amt: 450   },
+  { id: 23, date: '2024-03-24', desc: 'Clothes',              cat: 'Shopping',      type: 'expense', amt: 6200  },
+  { id: 24, date: '2024-03-28', desc: 'Dividend income',      cat: 'Investment',    type: 'income',  amt: 3200  },
+]
